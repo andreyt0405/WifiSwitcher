@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/ItemListXML"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#1C1E22"
+    android:padding="10dp">
+    <EditText
+        android:textColor="@color/white"
+        android:id="@+id/ssid_textedit"
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <EditText
+        android:textColor="@color/white"
+        android:id="@+id/status_textedit"
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true">
+
+    </EditText>
+
+
+</RelativeLayout>
